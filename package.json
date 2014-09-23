@@ -1,14 +1,26 @@
 {
-  "name": "gorlifsense",
+  "name": "GorlifSense",
   "version": "0.0.1",
-  "description": "webservice for postmetal band Gorlif Sense",
-  "author": "Band member <Fleischer458@gmail.com>",
+  "description": "Webservice for postmetal band Gorlif Sense from Ukraine",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Fleischers/GorlifSense"
+    "url": "https://github.com/Fleischers/GorlifSense.git"
   },
+  "keywords": [
+    "postmetal",
+    "GorlifSense",
+    "website"
+  ],
+  "author": "Fleischer458@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fleischers/GorlifSense/issues"
+  },
+  "homepage": "https://github.com/Fleischers/GorlifSense",
+  "private": true,
 }
