@@ -1,5 +1,14 @@
 {
   "name": "gorlifsense",
+  "version": "0.0.1",
   "description": "webservice for postmetal band Gorlif Sense",
-  "author": "A confused individual <Fleischer458@gmail.com>",
+  "author": "Band member <Fleischer458@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fleischers/GorlifSense"
+  },
 }
