@@ -22,5 +22,8 @@
     "url": "https://github.com/Fleischers/GorlifSense/issues"
   },
   "homepage": "https://github.com/Fleischers/GorlifSense",
-  "private": true
+  "private": true,
+  "engines": {
+    "node": "0.10.32"
+    }
 }
