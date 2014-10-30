@@ -1,8 +1,3 @@
-//var http = require('http');
-//http.createServer(function (req, res) {
-//    res.writeHead(200, {'Content-Type': 'text/plain'});
-//    res.end('Hello Gorlif Sense fan!\n');
-//}).listen(process.env.PORT, process.env.IP);
 var express = require('express')
 var app = express();
 
