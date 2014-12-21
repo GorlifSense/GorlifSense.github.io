@@ -1,5 +1,0 @@
-notifications:
-  slack: gorlifsense:rPOrVv5VQ3XkVk7TGBNn3iCY
-language: node_js
-node_js:
-   - "0.10"
