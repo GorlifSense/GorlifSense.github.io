@@ -1,3 +1,56 @@
+html, body {
+    width:100%;
+    height:100%;
+}
+
 body {
+
     background: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-color:#000;
+    /*background-size: 100% 100%;*/
+    background-position:center;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:320px;
+}
+
+a {
+    font-family:"Verdana", "Sans-serif";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:link {
+    color: #bdc3c7;
+}
+
+/* visited link */
+a:visited {
+    color: #ff0000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #dfe5eb;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFEE;
+}
+
+nav a {
+    padding: 10px 10px;
+}
+
+div.content {
+    display: table;
+    margin: 0 auto;
+    padding-top:10%;
+
 }
