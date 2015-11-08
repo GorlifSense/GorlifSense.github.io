@@ -28,8 +28,10 @@
 
 </head>
 
-<body>
-    <div id="content"></div>
+<body onresize="centerateImage()">
+    <div id="content">
+        <img src="../images/background.png" style="margin: 0 auto;position:relative;"  id="back_img">
+    </div>
     <footer>
         <center>
             <nav>
@@ -42,7 +44,14 @@
             </nav>
         </center>
     </footer>
-
+<script>
+    document.body.style.maxHeight = document.body.offsetHeight+"px";
+    function centerateImage() {
+        var image = document.getElementById('back_img');
+        image.style.left = (-((/*image.offsetWidth*/1920 - document.body.offsetWidth)/2))+"px";
+    }
+    centerateImage();
+</script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
